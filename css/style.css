@@ -236,7 +236,7 @@ main section p {
 		left:1150px;
 		font-size:32px;
 	} */
- /* ANIMACIONES,TRANSICIONES */
+ /* ANIMACIONES,TRANSICIONES EN INDEX */
 .transform:hover{
 	transform: translate(10px,10px);
 	cursor: pointer;
