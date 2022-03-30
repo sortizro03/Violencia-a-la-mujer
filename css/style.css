@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Contrail+One&family=Roboto+Mono&display=swap');
+* {
+	font-family: 'Contrail One', cursive;
+	margin: 0;
+	padding: 0;
+	font-weight:500;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    background-color: rgba(214,180,241,1);
+    /* background-attachment:fixed; */
+}
+
+.botonera {
+	display: grid;
+	grid-template-columns: 120px auto;
+	grid-template-rows: 1fr;
+	column-gap: 10px;
+	height: 40px;
+	background-color: rgba(52,4,87,0.6);
+}
+
+.botonera nav {
+	padding: 5px 20px;
+}
+	.botonera nav ol{
+		position: absolute;
+		display: inline-block;
+		right: 0;
+	}
+		.botonera > section > nav > ol > li {
+			font-size: 2rem;
+			list-style:none;
+			display: inline-block;
+			margin-right: 20px;
+			margin-top: -20px;
+			height: 15px;
+			vertical-align: middle;
+		}
+			.botonera > section > nav > ol > li > a {
+            	line-height: 1;
+            	text-decoration: none;
+            	font-family: 'Anton', sans-serif;
+            	color: rgb(0,0,0);
+			} 
+
+h1 {
+	color:rgb(144,129,183);
+	line-height: 3;
+	font-family: 'Anton', sans-serif;
+}
+
+h2 {
+	color:rgb(0,0,0);
+	font-weight:500;
+	
+}
+
+h3 {
+	color:rgb(0,0,0);
+	font-weight:100;
+	line-height: 2;
+	font-family: 'Contrail One', cursive;
+
+}
+
+.mainContent {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 4fr;
+	row-gap: 100px;
+}
+
+	#secondNav {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+	
+	}
+	#cajasNav{
+		padding-bottom: 10px;
+	}
+	#objetivos{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	#newsNav {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		gap: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		
+	}
+    #news{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
+		padding-right: 10px;
+		padding-left: 10px;
+		background-color: rgba(52,4,87,0.6);
+		align-items: center;
+		gap: 10px;
+		
+		
+	}
+	
+    	
+
+main section p {
+	color:rgb(0,0,0);
+	line-height: 2,4rem;
+	font-family: 'Roboto Mono', monospace;
+}
+#mainHtml{
+	display: none;
+}
+
+#footer {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	row-gap: 50px;
+	background-color:rgba(52,4,87,0.6);
+	
+}
+	footer a {
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    color: rgb(0,0,0);
+    font-size: 2rem;
+	}
+	.tituloRedesSociales{
+		font-size: 2rem;
+		font-family: 'Anton', sans-serif;
+		color: rgb(0,0,0);
+	}
+	.logoFooter{
+		padding-left: 5px;
+	}
+	.iconoFacebook{
+		padding-top: 5px;
+		font-size:32px;
+	}
+.textCenter{
+	text-align: center;
+}
+.textRight{
+	text-align: right;
+}	
+.textLeft{
+	text-align: left;
+}
+.encabezado{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	background-image: url("https://images.pexels.com/photos/7202823/pexels-photo-7202823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-self: center;
+	max-width: 100%;
+	width: 100%;
+	gap: 20px;
+}
+
+.encabezadoTitulo{
+	padding: 50px;
+	font-size:5rem;
+}
+.encabezadoFrase{
+	padding: 50px;
+	font-size:3rem;
+}
+.ayuda{
+	top:1000px;
+	left:400px;
+	margin-top:-80px;
+}
+.tituloAyuda{
+	text-align:center;
+	font-size:3rem;
+}
+.formulario{
+	text-align:center
+}
+
+.container-video {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responsive-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.tituloRedesSociales{
+	font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+    color: rgb(0,0,0);
+}
+.logoFooter{
+	padding-left: 5px;
+}
+.iconoFacebook{
+    padding-top: 5px;
+	font-size:32px;
+}
+    /*.iconoMail{
+    	top:50px;
+		left:1150px;
+		font-size:32px;
+	} */
+ /* ANIMACIONES,TRANSICIONES */
+.transform:hover{
+	transform: translate(10px,10px);
+	cursor: pointer;
+}
+.skew{
+   
+    transform: skew(5deg); 
+}
+
+
+ /* modelo MOBILE */
+
+
+@media (max-width: 600px) {
+	.encabezadoTitulo{
+		font-size: 2rem;
+		padding: 20px;
+	}
+	.encabezadoFrase{
+		font-size: 1rem;
+		padding: 20px;
+	}
+	.botonera > section > nav > ol > li.opcional {
+	  display: none;
+	}
+	#objetivos {
+		display: none;
+	}
+	#newsNav {
+		display: flex;
+	}
+	#news{
+		display: flex;
+		
+	}
+	footer a {
+	    font-size: 1rem;
+	}
+	.tituloRedesSociales{
+		font-size: 1rem;
+	
+	}
+}
+@media (min-width: 601px) {
+	#newsNav {
+		display: none;
+	}
+	#news{
+		display: none;
+		
+		
+	}
+	.container-video {
+		position: relative;
+		overflow: hidden;
+		width: 70%;
+		padding-top: 35.25%; 
+	    margin-left: 15% ;
+	}
+	
+}
