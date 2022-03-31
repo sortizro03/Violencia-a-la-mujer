@@ -17,16 +17,18 @@ body {
     /* background-attachment:fixed; */
 }
 
-.botonera {
-	display: grid;
-	grid-template-columns: 120px auto;
-	grid-template-rows: 1fr;
-	column-gap: 10px;
-	height: 40px;
+.navbar{
 	background-color: rgba(52,4,87,0.6);
+	position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 }
 
-.botonera nav {
+/* .botonera nav {
 	padding: 5px 20px;
 }
 	.botonera nav ol{
@@ -48,7 +50,7 @@ body {
             	text-decoration: none;
             	font-family: 'Anton', sans-serif;
             	color: rgb(0,0,0);
-			} 
+			}  */
 
 h1 {
 	color:rgb(144,129,183);
@@ -75,26 +77,22 @@ h3 {
 	grid-template-columns: auto;
 	grid-template-rows: 4fr;
 	row-gap: 100px;
-}
-
-	#secondNav {
+}   
+    
+    #secondNav {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-around;
 		align-items: center;
+		padding-top: 100px;
 	
-	}
+    }
 	#cajasNav{
 		padding-bottom: 10px;
 	}
 	#objetivos{
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		justify-content: space-evenly;
-		padding-right: 10px;
-		padding-left: 10px;
+		display: none;
 	}
 
 	#newsNav {
@@ -137,6 +135,9 @@ main section p {
 	grid-template-columns: auto auto auto auto;
 	row-gap: 50px;
 	background-color:rgba(52,4,87,0.6);
+	align-items: center;
+    justify-content: space-between;
+
 	
 }
 	footer a {
@@ -144,6 +145,7 @@ main section p {
     font-family: 'Anton', sans-serif;
     color: rgb(0,0,0);
     font-size: 2rem;
+	
 	}
 	.tituloRedesSociales{
 		font-size: 2rem;
@@ -192,7 +194,7 @@ main section p {
 .ayuda{
 	top:1000px;
 	left:400px;
-	margin-top:-80px;
+	margin-top:80px;
 }
 .tituloAyuda{
 	text-align:center;
@@ -236,7 +238,7 @@ main section p {
 		left:1150px;
 		font-size:32px;
 	} */
- /* ANIMACIONES,TRANSICIONES EN INDEX */
+ /* ANIMACIONES,TRANSICIONES */
 .transform:hover{
 	transform: translate(10px,10px);
 	cursor: pointer;
@@ -246,6 +248,9 @@ main section p {
     transform: skew(5deg); 
 }
 
+#secondNavMobile{
+	display: none;
+}
 
  /* modelo MOBILE */
 
@@ -259,19 +264,25 @@ main section p {
 		font-size: 1rem;
 		padding: 20px;
 	}
-	.botonera > section > nav > ol > li.opcional {
-	  display: none;
+	#secondNavMobile{
+		display: block ;
 	}
-	#objetivos {
+	
+	#objetivos{
 		display: none;
 	}
 	#newsNav {
 		display: flex;
 	}
+	
 	#news{
 		display: flex;
 		
 	}
+	#secondNav {
+		display: none;
+	
+    }
 	footer a {
 	    font-size: 1rem;
 	}
@@ -286,15 +297,21 @@ main section p {
 	}
 	#news{
 		display: none;
-		
-		
+			
 	}
+	#secondNavMobile{
+		display: none;
+	}
+	
 	.container-video {
 		position: relative;
 		overflow: hidden;
 		width: 70%;
 		padding-top: 35.25%; 
 	    margin-left: 15% ;
+	}
+	#objetivos {
+		display: flex;
 	}
 	
 }
