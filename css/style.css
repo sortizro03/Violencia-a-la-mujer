@@ -184,7 +184,7 @@ main section p {
 }
 
 .encabezadoTitulo{
-	padding: 50px;
+	padding-top: 30px;
 	font-size:5rem;
 }
 .encabezadoFrase{
@@ -251,6 +251,26 @@ main section p {
 #secondNavMobile{
 	display: none;
 }
+/* pagina Victimas */
+.carrusel{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 30px;
+	padding-bottom: 100px;
+	gap: 10px;
+}
+.textoCarrusel{
+	display: block;
+}
+#carruselMobileVictimas{
+	display: block;
+}
+.textVictimas{
+	padding: 60px;
+}
 
  /* modelo MOBILE */
 
@@ -290,6 +310,9 @@ main section p {
 		font-size: 1rem;
 	
 	}
+	#carruselMobileVictimas{
+        display: block;
+	}
 }
 @media (min-width: 601px) {
 	#newsNav {
@@ -312,6 +335,9 @@ main section p {
 	}
 	#objetivos {
 		display: flex;
+	}
+	#carruselMobileVictimas{
+        display: block;
 	}
 	
 }
