@@ -1,5 +1,5 @@
 {
-  "name": "repo1",
+  "name": "violencia_contra_la_mujer",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -305,5 +305,5 @@
     "yargs": "^17.4.0",
     "yargs-parser": "^20.2.9"
   },
-  "description": ""
+  "description": "Mi_sitio_web_se_crea_con_la_iniciativa_de_que_las_mujeres_tengan_informacion_sobre_la_violencia_de_genero_conociendo_las_historias_de_mujeres_victimas_de_abuso,conociendo_historias_de_mujeres_que_han_luchado_por_nuestros_derechos_y_puedan_atra_vez_del_sitio_web_pedir_ayuda_comentando_cual_es_su_caso_de_violencia"
 }
