@@ -1,0 +1,19 @@
+.carrusel{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 30px;
+	padding-bottom: 100px;
+	gap: 10px;
+}
+.textoCarrusel{
+	display: block;
+}
+#carruselMobileVictimas{
+	display: block;
+}
+.textVictimas{
+	padding: 60px;
+}

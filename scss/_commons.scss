@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Contrail+One&family=Roboto+Mono&display=swap');
+//estilo del texto//
+$fontTitulo: 'Contrail One', cursive;
+$fontSubTitulo: 'Contrail One', cursive;
+$fontTexto: 'Contrail One', cursive;
+//colores//
+$colorFondo:rgba(214,180,241,1);
+$colorNavbar:rgba(52,4,87,0.6);
+$colorFooter:rgba(52,4,87,0.6);
+$colorTitulo:rgb(144,129,183);
+$colorTexto:rgb(0,0,0);
+$colorSubtitulo:rgb(52,4,87);
+//tamaños texto//
+$textXl: 4em;
+$textLg: 3em;
+$textMl: 2em;
+$textSm: 1em;
+
+.encabezadoTitulo{
+	padding-top: 30px;
+	font-size:3rem;
+    color: $colorNavbar;
+}
+.textCenter{
+	text-align: center;
+    padding-bottom: 50px;
+}
+h2{
+    color: black;
+}
+

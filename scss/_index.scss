@@ -1,0 +1,194 @@
+.mainContent {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 4fr;
+	row-gap: 100px;
+}   
+    
+    #secondNav {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		padding-bottom: 50px;
+	
+    }
+	#cajasNav{
+		padding-bottom: 10px;
+	}
+	#objetivos{
+		display: none;
+	}
+
+	#newsNav {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		gap: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		
+	}
+    #news{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
+		padding-right: 10px;
+		padding-left: 10px;
+		background-color: rgba(52,4,87,0.6);
+		align-items: center;
+		gap: 10px;
+		
+		
+	}
+	
+    	
+
+main section p {
+	color:rgb(0,0,0);
+	line-height: 2,4rem;
+	font-family: 'Roboto Mono', monospace;
+}
+#mainHtml{
+	display: none;
+}
+.encabezado{
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	background-image: url("https://images.pexels.com/photos/7202823/pexels-photo-7202823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-self: center;
+	max-width: 100%;
+	width: 100%;
+	gap: 5px;
+}
+
+
+.encabezadoFrase{
+	padding: 50px;
+	font-size:3rem;
+}
+.ayuda{
+	top:1000px;
+	left:400px;
+	margin-top:80px;
+}
+.tituloAyuda{
+	text-align:center;
+	font-size:3rem;
+}
+.formulario{
+	text-align:center
+}
+
+.container-video {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responsive-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+// animaciones//
+.transform:hover{
+	transform: translate(10px,10px);
+	cursor: pointer;
+}
+.skew{
+   
+    transform: skew(5deg); 
+}
+
+#secondNavMobile{
+	display: none;
+}
+#mobileValientes{
+	display: none;
+}
+
+
+@media (max-width: 600px) {
+	#mobileValientes{
+		display:flex;
+	}
+	.encabezadoTitulo{
+		font-size: 2rem;
+		padding: 20px;
+	}
+	.encabezadoFrase{
+		font-size: 1rem;
+		padding: 20px;
+	}
+	#secondNavMobile{
+		display: block ;
+	}
+	
+	#objetivos{
+		display: none;
+	}
+	#newsNav {
+		display: flex;
+	}
+	
+	#news{
+		display: flex;
+		
+	}
+	#secondNav {
+		display: none;
+	
+    }
+	footer a {
+	    font-size: 1rem;
+	}
+	.tituloRedesSociales{
+		font-size: 1rem;
+	
+	}
+	#carruselMobileVictimas{
+        display: block;
+	}
+}
+@media (min-width: 601px) {
+	#newsNav {
+		display: none;
+	}
+	#news{
+		display: none;
+			
+	}
+	#secondNavMobile{
+		display: none;
+	}
+	
+	.container-video {
+		position: relative;
+		overflow: hidden;
+		width: 70%;
+		padding-top: 35.25%; 
+	    margin-left: 15% ;
+	}
+	#objetivos {
+		display: flex;
+	}
+	#carruselMobileVictimas{
+        display: block;
+	}
+	
+}

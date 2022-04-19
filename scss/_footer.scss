@@ -1,0 +1,41 @@
+#footer {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	row-gap: 50px;
+	background-color:rgba(52,4,87,0.6);
+	align-items: center;
+    justify-content: space-between;
+
+	
+}
+	footer a {
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    color: rgb(0,0,0);
+    font-size: 2rem;
+	
+	}
+	.tituloRedesSociales{
+		font-size: 2rem;
+		font-family: 'Anton', sans-serif;
+		color: rgb(0,0,0);
+	}
+	.logoFooter{
+		padding-left: 5px;
+	}
+	.iconoFacebook{
+		padding-top: 5px;
+		font-size:32px;
+	}
+    .tituloRedesSociales{
+        font-size: 2rem;
+        font-family: 'Anton', sans-serif;
+        color: rgb(0,0,0);
+    }
+    .logoFooter{
+        padding-left: 5px;
+    }
+    .iconoFacebook{
+        padding-top: 5px;
+        font-size:32px;
+    }    

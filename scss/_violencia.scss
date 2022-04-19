@@ -1,0 +1,33 @@
+
+.cardDerecha {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 12.5%;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.25rem;}
+.cardIzquierda {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 12.5%;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.25rem;}
+.bordederecha{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.bordeizquierda{
+
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.imgViolencia{
+    height: 200px;
+    width: 200px;
+
+}
